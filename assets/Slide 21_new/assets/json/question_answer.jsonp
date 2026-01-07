@@ -1,0 +1,44 @@
+ var title=[{title:"Revision: Transpiration"}]
+ var questions = [{
+    question: "1.  Transpiration is ...",
+    choices: ["the absorption of water by a plant through its roots.", "the evaporation of water from the leaves.", "the movement of water from the roots to the leaves of a plant.", "all of the above."],
+    correctAnswer: "all of the above."
+  },{
+    question: "2.  Capillarity is ...",
+    choices: ["caused by cohesion and adhesion of water.", "the water present in the soil that is available to plants.", "the movement of water up a straw.", "all of the above."],
+    correctAnswer: "caused by cohesion and adhesion of water."
+  }, {
+	question: "3.  When the wind blows, the rate of transpiration will ...",
+    choices: ["increase because the water potential gradient increases.", "increase because photosynthesis increases.", "decrease because photosynthesis decreases.", "decrease because the water potential gradient decreases."],
+    correctAnswer: "increase because the water potential gradient increases."
+  }, {
+    question: "4.  Root pressure is described as ...",
+    choices: ["the force of gravity, pushing water up the root.","the pressure exerted on the root by the weight of the soil around it.","the water potential gradient in the root, pushing water into the stem.","none of the above."],
+    correctAnswer: "the water potential gradient in the root, pushing water into the stem."
+  }, {
+    question: "5.  Guttation is ...",
+    choices: ["usually greatest at night.", "caused when there is too little water in the plant.","visible as little drops leaking out the bottom as you cut a stem.", "when you feel shocked by extremely bad news."],
+    correctAnswer: "usually greatest at night."
+  }, {
+    question: "6.  Wilting can be caused by ...",
+    choices: ["high temperatures.", "too much wind.", "too little available water in the soil.", "all of the above."],
+    correctAnswer: "all of the above."
+  }, {
+    question: "7.  As the light intensity increases, the rate of transpiration ...",
+    choices: ["increases continuously.", "decreases continuously.", "increases to a point, then remains stable.", "decreases to a point, then remains stable."],
+    correctAnswer: "increases to a point, then remains stable."
+  }, {
+    question: "8.  Transpirational pull is ...",
+    choices: ["the absorption of water by a plant through its roots.", "the evaporation of water from the leaves, pulling the next water molecule up the plant.", "the movement of water from the roots to the leaves of a plant.", "all of the above."],
+    correctAnswer: "the evaporation of water from the leaves, pulling the next water molecule up the plant."
+  }, {
+    question: "9.  A potometer is used to measure the ...",
+    choices: ["rate of transpirational pull.", "rate of transpiration.", "volume of water a shoot absorbs.", "strength of capillarity."],
+    correctAnswer: "rate of transpiration."
+  }, {
+    question: "10.  When setting up a potometer, the shoot should be cut under water ...",
+    choices: ["because it is easier to cut the shoot when it is wet and soggy.", "because water acts as a magnifying glass to help you see what you are doing.", "to prevent soil from getting into the xylem.", "to ensure no air bubbles enter the xylem."],
+    correctAnswer: "to ensure no air bubbles enter the xylem."
+  }
+  ];
+

@@ -1,0 +1,46 @@
+var Labelling_drag_and_drop_common=[{
+ assetName:"Identify root cell pathways",
+ authorinst:{title:"Identify root cell pathways",color:"#ffffff",font_size:"22px",font_weight:"bold"},
+ background:[{image:'assets/images/pathwaysbg.png'},{color:'#a3bdd7'}],
+ feedback_img:[{right:'assets/images/correct.png',wrong:'assets/images/incorrect.png'}],
+ resets:[{"text":"Reset"},{"color":"#ffffff"},{font_size:"17px"},{"line_height":"1.5"}],
+ help:[{"text":"Help"},{"color":"#ffffff"},{font_size:"17px"},{"line_height":"1.5"}],
+ next:[{"text":"Next"},{"color":"#ffffff"},{font_size:"17px"},{"line_height":"1.5"}],
+ finish:[{"text":"Finish"},{"color":"#ffffff"},{font_size:"17px"},{"line_height":"1.5"}],
+ result_text:[{color:'#000000',font_size:"18px",font_weight:"bold"}],
+ help_text_style:[{color:'#000000',font_size:"16px"}],
+ help_text:[{"instruction":[{"instruction_0":"When you click on the play button, the activity begins. "},{"instruction_1":"Read the question carefully and drag the labels into the correct places."},{"instruction_2":"Once you have labelled the diagram, a green tick or a red cross appears to tell you whether you are right or wrong."},{"instruction_3":"You can select <b>Reset</b> to begin the activity again."},{"instruction_4":"Once you have completed the final question, select <b>Finish</b>."}]}],
+ time:[{"time_counts":"02"},{"timer_text":"Timer"},{"timer_color":"#FFFFFF"},{"timer_font_size":"15px"},{"line_height":"1.9"}],
+ time_display:'hide',
+ grid:[{show_pixles:'10',display:'hide'}],
+}]
+
+var Labelling_drag_and_drop1=[{
+
+ screen:[{
+ authorqus:{question:"Drag and drop the labels to the correct positions.",font_size:"20px",font_weight:"bold",color:"#000000"},
+ 
+ base_image:[{src:'assets/images/pathways.png'},{width:'890',height:'470',top:'1',left:'1'}],
+ 
+ base_text:[{text:'',width:'80',height:'auto',top:'110',left:'350',color:'#000000',font_size:"14px",font_weight:"bold"}],
+ 
+ drag_text:['symplastic pathway','apoplastic pathway'],
+ 
+ drag_text_style:[{color:'#000000',font_size:"13px",font_weight:"bold"}],
+ 
+ drag_zone:[{top:'100',left:'610'},{top:'150',left:'610'}], 
+ 
+ drop_zone:[{top:'360',left:'345',answer:'2'},{top:'410',left:'345',answer:'1'}], 
+ 
+ drag_and_drop_size:[{width:'150',height:'30',v_align:'1.6'}],
+ 
+ instructions_text:[{text:'',top:'20',left:'540',color:'#000000',font_size:"18px",font_weight:"bold"}],
+ 
+ feedback:[{top:'360',left:'505'},{top:'410',left:'505'}],
+ 
+ answer_show:'hide',
+ }]
+ },
+ 
+]
+

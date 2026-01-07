@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en" xml:lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta http-equiv="X-UA-Compatible" content="IE=11">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<title>Transpiration</title>
+
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+
+<link href="css/jquery-ui/jquery-ui.css" 				rel="stylesheet" type="text/css" />
+<link href="css/jquery.jscrollpane.css" 				rel="stylesheet" type="text/css" />
+<link href="css/reset.css" 								rel="stylesheet" type="text/css" />
+<link href="css/styles.css" 							rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui.js"></script>
+<script type="text/javascript" src="js/jquery.ui.touch-punch.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="js/jquery.jscrollpane.js"></script>
+<script type="text/javascript" src="js/jquery.topzindex.js"></script>
+<script type="text/javascript" src="js/preloadCssImages.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+
+</head>
+
+<body>
+
+<div id="header" class="group">
+	
+	<div id="header_content">
+		
+		<div id="obook_logo"><img src="css/img/zoom_life-sciences.png" /></div><div id="header_title">Choose the correct term to match the definition</div>
+		
+		<div id="header_nav" class="group">
+			<div id="help_btn" class="header_btn up">HELP</div>
+		</div>
+		
+	</div>
+	
+</div>
+
+<div id="container">
+
+	<div id="loading"></div>
+	
+	<div id="help">
+	
+		<div id="help_header">
+			<div id="help_drag"></div>
+			<div id="help_close_btn"></div>
+			<div id="help_title">Help</div>
+		</div>
+		
+		<div id="help_content">
+			<div id="help_border"></div>
+			<div id="help_content_holder" class="scroll-pane">
+				<div class="instructions">
+					<h1>Instructions</h1>
+					<p>Use the arrows to select an item.</p>
+					<p>Select the correct label from the drop-down list.</p>
+				</div>
+				<div class="buttons">
+					<h1>Buttons</h1>
+					<div class="button group">
+						<p class="icon"><img src="css/img/icon_help.svg" /></p>
+						<p class="desc">Show/hide this help screen</p>
+					</div>
+				</div>
+				<div class="instructions">
+					<h1>Viewing on a netbook screen</h1>
+					<ol>
+						<li><p>Press the <strong>F11</strong> key to enter fullscreen mode.</p></li>
+						<li><p>Press the <strong>Ctrl</strong> and <strong>-</strong> keys together to zoom out and scale the activity to fit your window.</p></li>
+						<li><p>To exit fullscreen mode press the <strong>F11</strong> key again. To exit the zoomed-out view, press the <strong>Ctrl</strong> and <strong>0</strong> keys together.</p></li>
+					</ol>
+				</div>
+				<div class="instructions">
+					<h1>Minimum system requirements</h1>
+					<p>This activity is best viewed in a current web browser that fully supports HTML5, with a minimum screen resolution of 1024 x 768.</p>
+				</div>
+				<div class="instructions">
+					<p><strong>&copy; Oxford University Press 2017</strong></p>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	<div id="content">
+	
+		<div id="item_counter"></div>
+		<div id="correct_counter"></div>
+		
+		<div id="panel">
+			<div id="panel_content"></div>
+		</div>
+		
+		<div id="reset_btn">RESET ALL</div>
+		<div id="next_btn"></div>
+		<div id="prev_btn"></div>
+	
+		<div id="items">
+			<div class="item" data-target="0"><p>Process in which water is lost by evaporation from the leaves through the stomata</p></div>
+			<div class="item" data-target="1"><p>Pore found on the lower epidermis of a leaf, surrounded by guard cells</p></div>
+			<div class="item" data-target="2"><p>Vascular tissue of plants which allows water and dissolved salts to move from the roots through the stem to the leaves</p></div>
+			<div class="item" data-target="3"><p>Vascular tissue of plants which moves products of photosynthesis from the leaves to the storage area and growing points of a plant</p></div>
+			<div class="item" data-target="4"><p>Thin layer of living tissue between the xylem on the inside and the phloem on the outside</p></div>
+			<div class="item" data-target="5"><p>Layer of cells covering the top and bottom of a leaf</p></div>
+			<div class="item" data-target="6"><p>Waterproof waxy coating secreted by the epidermis</p></div>
+			<div class="item" data-target="7"><p>Middle layer of leaf made up of regularly shaped cells which contain many chloroplasts</p></div>
+			<div class="item" data-target="8"><p>Middle layer of leaf made up op irregularly shaped cells with air spaces in between them</p></div>
+			<div class="item" data-target="9"><p>Apparatus which measures transpiration rates in natural and artificial conditions</p></div>
+			<div class="item" data-target="10"><p>Transport of minerals and products of photosynthesis within a plant</p></div>
+			<div class="item" data-target="11"><p>A state in which a plant is losing more water by transpiration than it can replace by osmosis</p></div>
+			<div class="item" data-target="12"><p>Main factors which affect the rate of photosynthesis</p></div>
+		</div>
+	
+		<div id="labels">
+			<div class="label" id="0"><p>Transpiration</p></div>
+			<div class="label" id="1"><p>Stoma</p></div>
+			<div class="label" id="2"><p>Xylem</p></div>
+			<div class="label" id="3"><p>Phloem</p></div>
+			<div class="label" id="4"><p>Cambium</p></div>
+			<div class="label" id="5"><p>Epidermis</p></div>
+			<div class="label" id="6"><p>Cuticle</p></div>
+			<div class="label" id="7"><p>Palisade mesophyll</p></div>
+			<div class="label" id="8"><p>Spongy mesophyll</p></div>
+			<div class="label" id="9"><p>Potometer</p></div>
+			<div class="label" id="10"><p>Translocation</p></div>
+			<div class="label" id="11"><p>Wilting</p></div>
+			<div class="label" id="12"><p>Limiting factors</p></div>
+		</div>
+		
+	</div>
+	
+</div>
+
+<div id="footer">
+	
+</div>
+
+</body>
+
+</html>

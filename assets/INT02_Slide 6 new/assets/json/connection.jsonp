@@ -1,0 +1,46 @@
+var Labelling_drag_and_drop_common=[{
+ assetName:"Label the internal structure of a leaf",
+ authorinst:{title:"Label the internal structure of a leaf",color:"#ffffff",font_size:"25px",font_weight:"bold"},
+ background:[{image:'assets/images/leafbg.png'},{color:'#a3bdd7'}],
+ feedback_img:[{right:'assets/images/correct.png',wrong:'assets/images/incorrect.png'}],
+ resets:[{"text":"Reset"},{"color":"#ffffff"},{font_size:"17px"},{"line_height":"1.5"}],
+ help:[{"text":"Help"},{"color":"#ffffff"},{font_size:"17px"},{"line_height":"1.5"}],
+ next:[{"text":"Next"},{"color":"#ffffff"},{font_size:"17px"},{"line_height":"1.5"}],
+ finish:[{"text":"Finish"},{"color":"#ffffff"},{font_size:"17px"},{"line_height":"1.5"}],
+ result_text:[{color:'#000000',font_size:"18px",font_weight:"bold"}],
+ help_text_style:[{color:'#000000',font_size:"16px"}],
+ help_text:[{"instruction":[{"instruction_0":"When you click on the play button, the activity begins. "},{"instruction_1":"Read the question carefully and drag the labels into the correct places."},{"instruction_2":"Once you have labelled the diagram, a green tick or a red cross appears to tell you whether you are right or wrong."},{"instruction_3":"You can select <b>Reset</b> to begin the activity again."},{"instruction_4":"Once you have completed the final question, select <b>Finish</b>."}]}],
+ time:[{"time_counts":"02"},{"timer_text":"Timer"},{"timer_color":"#FFFFFF"},{"timer_font_size":"15px"},{"line_height":"1.9"}],
+ time_display:'hide',
+ grid:[{show_pixles:'10',display:'hide'}],
+}]
+
+var Labelling_drag_and_drop1=[{
+
+ screen:[{
+ authorqus:{question:"Drag and drop the labels to the correct positions.",font_size:"20px",font_weight:"bold",color:"#000000"},
+ 
+ base_image:[{src:'assets/images/leaf.png'},{width:'890',height:'470',top:'1',left:'1'}],
+ 
+ base_text:[{text:'',width:'80',height:'auto',top:'110',left:'350',color:'#000000',font_size:"14px",font_weight:"bold"}],
+ 
+ drag_text:['veins','guard cells of stoma','lower epidermis','upper epidermis','cuticle','phloem','xylem','palisade mesophyll','spongy mesophyll'],
+ 
+ drag_text_style:[{color:'#000000',font_size:"13px",font_weight:"bold"}],
+ 
+ drag_zone:[{top:'15',left:'730'},{top:'60',left:'730'},{top:'105',left:'730'},{top:'150',left:'730'},{top:'195',left:'730'},{top:'240',left:'730'},{top:'285',left:'730'},{top:'330',left:'730'},{top:'375',left:'730'}], 
+ 
+ drop_zone:[{top:'288',left:'10',answer:'1'},{top:'88',left:'25',answer:'2'},{top:'340',left:'535',answer:'3'},{top:'80',left:'535',answer:'4'},{top:'50',left:'25',answer:'5'},{top:'360',left:'10',answer:'7'},{top:'322',left:'10',answer:'6'},{top:'150',left:'535',answer:'8'},{top:'250',left:'535',answer:'9'}], 
+ 
+ drag_and_drop_size:[{width:'120',height:'25',v_align:'1.6'}],
+ 
+ instructions_text:[{text:'',top:'20',left:'540',color:'#000000',font_size:"18px",font_weight:"bold"}],
+ 
+ feedback:[{top:'288',left:'135'},{top:'88',left:'150'},{top:'340',left:'660'},{top:'80',left:'660'},{top:'50',left:'150'},{top:'360',left:'135'},{top:'322',left:'135'},{top:'150',left:'660'},{top:'250',left:'660'}],
+ 
+ answer_show:'hide',
+ }]
+ },
+ 
+]
+
